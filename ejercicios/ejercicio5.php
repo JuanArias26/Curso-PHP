@@ -3,7 +3,7 @@ if ($_POST) {
 
     $txtNombre = $_POST['txtNombre'];
     $txtApellido=$_POST['txtApellido'];
-    echo "Hola señ@rr ".$txtNombre. " ".$txtApellido;
+    echo "Hola ".$txtNombre. " ".$txtApellido;
 }
 ?>
 
