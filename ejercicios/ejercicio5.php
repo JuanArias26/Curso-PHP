@@ -1,8 +1,9 @@
 <?php
-if($_POST){
+if ($_POST) {
 
-    $txtNombre=$_POST['txtNombre'];
-    echo "Hola ".$txtNombre;
+    $txtNombre = $_POST['txtNombre'];
+    $txtApellido=$_POST['txtApellido'];
+    echo "Hola ".$txtNombre. " ".$txtApellido;
 }
 ?>
 

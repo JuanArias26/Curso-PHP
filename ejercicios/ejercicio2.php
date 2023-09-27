@@ -1,12 +1,12 @@
 <?php
 
-    if($_POST) {
+if ($_POST) {
 
-        //recibir informacion del formulario html (metodo POST)
-        $nombre = $_POST['txtNombre'];
+    //recibir informacion del formulario html (metodo POST)
+    $nombre = $_POST['txtNombre'];
 
-        echo "Hola " . $nombre;
-    }
+    echo "Hola " . $nombre;
+}
 ?>
 
 <!DOCTYPE html>
@@ -19,12 +19,12 @@
 </head>
 <body>
 
-        <form action="ejercicio2.php" method="post">
-            Nombre
-            <input type="text" name="txtNombre" id="">
-            <br>
-            <input type="submit" value="Enviar">
+<form action="ejercicio2.php" method="post">
+    Nombre
+    <input type="text" name="txtNombre" id="">
+    <br>
+    <input type="submit" value="Enviar">
 
-        </form>
+</form>
 </body>
 </html>
